@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="拾片 ClipNest 支援：聯絡客服、收藏與播放、JSON 備份還原、本機影片及私密分類的常見問題。">
+  <title>拾片 ClipNest｜支援與常見問題</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: #0b0f15; color: #e6edf6; line-height: 1.8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 56rem; margin: auto; padding: 2.5rem 1.25rem 4rem; overflow-wrap: anywhere; }
+    a { color: #8fbaff; text-underline-offset: .22em; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid #a5e4cf; outline-offset: 5px; border-radius: 4px; }
+    .skip { position: absolute; left: -10000px; }
+    .skip:focus { position: static; display: block; padding: 1rem; }
+    .brand, .eyebrow { color: #a5e4cf; font-size: .9rem; letter-spacing: .08em; }
+    h1 { font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.25; margin: .75rem 0 1rem; letter-spacing: -.04em; }
+    .intro { color: #b8c5d7; max-width: 38rem; margin-bottom: 1.75rem; }
+    .contact { border: 1px solid #354862; border-radius: 22px; padding: 1.5rem; background: #141c28; }
+    .contact h2 { margin: 0 0 .4rem; font-size: 1.25rem; }
+    .contact p { margin: .5rem 0; }
+    .email { display: inline-block; background: #8fbaff; color: #0b1830; padding: .65rem 1rem; border-radius: 12px; font-weight: 700; text-decoration: none; margin: .5rem 0; }
+    .muted { color: #b8c5d7; font-size: .94rem; }
+    nav { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; margin: 1.75rem 0 2.5rem; }
+    section { margin: 2rem 0; scroll-margin-top: 1.5rem; }
+    section > h2 { font-size: 1.3rem; margin-bottom: .8rem; }
+    details { background: #14181f; border: 1px solid #26303e; border-radius: 16px; margin: .65rem 0; }
+    summary { cursor: pointer; padding: 1rem 1.2rem; font-weight: 600; }
+    details > div { padding: 0 1.2rem 1rem; color: #c4cedc; }
+    details p { margin: .25rem 0 .8rem; }
+    details p:last-child { margin-bottom: 0; }
+    ol { padding-left: 1.5rem; }
+    .notice { border-left: 3px solid #a5e4cf; padding-left: 1rem; }
+    footer { margin-top: 3rem; border-top: 1px solid #26303e; padding-top: 1rem; color: #b8c5d7; font-size: .9rem; }
+    @media (max-width: 440px) { main { padding-top: 1.5rem; } .contact { padding: 1.1rem; } }
+    @media print { :root { color-scheme: light; background: white; color: black; } .intro,.muted,details > div,footer { color: black; } details,.contact { background: white; } nav,.skip { display: none; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#help">跳至常見問題</a>
+  <main>
+    <header>
+      <div class="brand">拾片 ClipNest</div>
+      <h1>想找的解答，在這裡。</h1>
+      <p class="intro">收藏、播放或備份遇到問題，可以先查看下方說明，也歡迎直接寫信聯絡我們。</p>
+    </header>
+
+    <aside class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">聯絡支援</h2>
+      <p>問題回報、操作詢問與建議，都可以寄到：</p>
+      <a class="email" href="mailto:boen520520@gmail.com?subject=ClipNest%20Support">boen520520@gmail.com</a>
+      <p class="muted">請附上手機型號、Android／iOS 版本、拾片版本、操作步驟與錯誤文字。若提供截圖，請先遮住私人內容。</p>
+      <p class="muted">不需要寄送完整收藏備份、私人筆記、密碼、付款資料或驗證碼。</p>
+    </aside>
+
+    <nav aria-label="常見問題分類">
+      <a href="#collection">收藏與播放</a><a href="#backup">備份與還原</a>
+      <a href="#local">本機影片</a><a href="#private">私密分類</a><a href="#pro">Pro 與購買</a>
+    </nav>
+
+    <div id="help">
+      <section id="collection">
+        <h2>收藏與播放</h2>
+        <details><summary>可以收藏哪些內容？</summary><div>
+          <p>支援 Instagram、YouTube、TikTok、Facebook 的影片連結，以及 Threads、X 貼文。可從來源 App 分享至拾片，或在拾片貼上連結；也能匯入你明確選取的本機影片。</p>
+          <p>拾片保存平台來源連結，不代為下載社群影片，也不掃描或抓取社群帳號收藏。</p>
+        </div></details>
+        <details><summary>收藏無法播放，或沒有出現封面？</summary><div>
+          <p>先確認網路及「我的 → 隱私與連線」設定。來源影片被刪除、設為私人、限制地區或不允許嵌入時，拾片不一定能播放或取得封面，可改按「在來源平台觀看」。</p>
+          <p>官方播放器可能要求你按一下播放，也可能顯示平台廣告或推薦。播放與封面失敗不會自動刪除收藏；回報時提供平台名稱、操作與錯誤即可，不必提供私人連結。</p>
+        </div></details>
+        <details><summary>可以完全不連線使用嗎？</summary><div>
+          <p>可以。第一次開啟可選「只用離線功能」，之後也能在「我的 → 隱私與連線」關閉連線功能。分類、筆記、手動備份與已匯入的本機影片仍可使用；平台影片、標題查詢與自動封面需要來源平台連線。</p>
+        </div></details>
+      </section>
+
+      <section id="backup">
+        <h2>備份與還原</h2>
+        <details><summary>如何備份收藏？備份包含影片嗎？</summary><div>
+          <p>到「我的 → 備份與還原 → 匯出備份」，將 JSON 存到可信任的位置。手動匯出與還原維持免費。</p>
+          <p class="notice">JSON 未加密，含收藏連結、筆記與分類，不含本機影片檔及封面。請保管備份，並另外保留原始影片；不要把備份公開分享。</p>
+        </div></details>
+        <details><summary>還原會清空目前的收藏嗎？</summary><div>
+          <p>目前還原會合併收藏。選取 JSON 後，依畫面選擇「合併，保留現有重複收藏」或「合併，以備份取代重複收藏」；取代只針對相同識別的重複收藏，其他收藏保留。</p>
+          <p>還原前先匯出目前資料，並核對即將匯入的檔案。不要為了測試而清空收藏或解除安裝。本機影片若缺少檔案，需重新匯入原始影片。</p>
+        </div></details>
+        <details><summary>自動備份為什麼沒有每天出現？</summary><div>
+          <p>自動備份須先開啟並選取資料夾；在主 App 開啟或返回、且到了設定週期時才執行。沒打開拾片的日子不會在背景自動備份，也不是每天午夜固定執行。</p>
+          <p>設定「每天」時，距上次成功備份約 23 小時後可觸發。使用的是上次成功時間，剛按過「立即備份」會重新計時。每週、每月亦依所選週期檢查。</p>
+          <p>資料夾保留最近五份拾片自動備份，同一天再備份會更新當天檔案。若失敗，確認儲存空間及資料夾可用性，必要時重新選取資料夾；不要解除安裝處理備份問題。</p>
+        </div></details>
+      </section>
+
+      <section id="local">
+        <h2>本機影片</h2>
+        <details><summary>匯入後原始影片會被移走嗎？</summary><div>
+          <p>不會。拾片只複製你選取的影片到 App 內，會占用額外儲存空間。刪除本機影片收藏會移除 App 內副本，原始檔不受影響。</p>
+          <p>解除安裝可能使 App 內資料與影片副本遺失。請保留原始影片，並在換機或解除安裝前自行備份收藏。</p>
+        </div></details>
+        <details><summary>iPhone 從照片匯入失敗怎麼辦？</summary><div>
+          <p>先確認儲存空間及影片能在系統中播放。可先將自己有權使用的影片存到「檔案」，再於拾片的「匯入本機影片」選「從檔案選影片」重試。若仍失敗，回報檔案格式、大小與畫面訊息即可，不需要寄送影片。</p>
+        </div></details>
+      </section>
+
+      <section id="private">
+        <h2>私密分類</h2>
+        <details><summary>私密分類是否加密？能禁止截圖嗎？</summary><div>
+          <p>私密分類使用裝置生物辨識或螢幕鎖保護入口，屬於隱藏而非加密。拾片不會取得你的指紋、臉部或裝置密碼。</p>
+          <p>iPhone 會在切背景時遮蓋私密預覽，但無法禁止系統截圖；Android 的系統保護行為不同。匯出的 JSON 仍未加密，自動備份預設不包含私密分類。</p>
+        </div></details>
+      </section>
+
+      <section id="pro">
+        <h2>Pro 與購買</h2>
+        <details><summary>看到「封測期間，Pro 免費試用」是什麼意思？</summary><div>
+          <p>此版本尚未開放付費，Pro 功能提供免費試用，不執行 200 支上限。是否能購買請以目前版本顯示及商店狀態為準；建立商店商品不代表已開始收費。</p>
+        </div></details>
+        <details><summary>已購買後，如何恢復或取消訂閱？</summary><div>
+          <p>在已開放購買的版本，可使用購買時的同一個商店帳號，在拾片 Pro 頁選「恢復購買」。iPhone 使用 App Store、Android 使用 Google Play；權益不自動跨平台共用。</p>
+          <p>月訂閱由對應商店管理，請到商店的訂閱設定取消；解除安裝不會取消訂閱，取消後通常可用至當期結束。退款由對應商店依其規則處理。</p>
+          <p>恢復失敗時先確認商店帳號及連線，再重試。請勿為恢復權益而清除 App 資料或解除安裝，以免遺失本機收藏與影片。</p>
+        </div></details>
+      </section>
+    </div>
+
+    <footer>拾片 ClipNest · 開發者 Boen · 支援 Android 與 iPhone<br>
+      <a href="https://shid800128-max.github.io/clipnest-privacy/" rel="noreferrer">隱私權政策</a> ·
+      <a href="mailto:boen520520@gmail.com">聯絡支援</a>
+    </footer>
+  </main>
+</body>
+</html>
